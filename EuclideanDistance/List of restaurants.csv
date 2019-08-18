@@ -1,0 +1,49 @@
+﻿Name,Cuisine,Food Nutrition Score,Distance (km),Price for one meal (per pax/per set)
+Family Yong Tau Foo,Oriental,0.5,5.5,7
+Weng Soon Bak Kut Teh,Oriental,0.7,1.9,6.5
+Weng Soon Lotus Root,Oriental,0.4,1.9,7
+Weng Soon Fried Chicken + Rice set,Western,0.95,1.9,7
+Weng Soon Jawa Mee,Oreintal,0.75,1.9,6
+Weng Soon Satay,Malay,0.9,1.9,10
+Weng Soon Char Kuey Teow,Oriental,0.95,1.9,6.5
+PizzaHut (USJ 9),Italian,0.3,7,11
+Dominos (Alam Megah),Italian,0.2,3.2,11.7
+Sri Melur ,Mamak,0.8,1.9,8
+McDonalds (Taipan),Western,0.7,6.3,10
+McDonalds (Shah Alam Seksyen 22),Western ,0.7,4.2,10
+McDonalds (Subang Parade),Western,0.7,10.9,10
+McDonalds (Sunway Pyramid),Western,0.7,14.9,10
+McDonalds (USJ 21),Western,0.7,4.2,10
+Sushi Mentai,Japanese,0.4,7,11.5
+Sushi Zanmai,Japanese,0.4,4.2,13
+Sushi King (Summit),Japanese,0.4,7.5,13
+Sakae Sushi (Subang Parade),Japanese,0.4,10.9,15
+KFC (Subang Petronas),Western,0.95,4.1,12
+KFC (Alam Megah),Western,0.95,2.8,15
+Home Cooked Noodles,Mixed,0.5,0,8
+Uncle Jack (Giant USJ),Western,0.65,7.5,4.2
+Wawasan Zhu Chao,Oriental,0.7,5.5,10
+Ah Koong Noodle Shop,Oriental,0.7,7,9.5
+Taipan Economical Rice Shop,Mixed,0.7,7,7
+USJ 21 Economical Rice Shop,Mixed,0.7,4.2,7
+Lick Hung Economical Rice Shop,Mixed,0.7,7.9,7
+USJ 16 Man Xiang Fish noodle,Oriental,0.7,1.9,8
+Alam Megah Pan Mee,Oriental,0.85,4.8,6.5
+Alam Megah Zhu Chao,Oreintal,0.75,4.8,9
+USJ 7 Globalite Fish Head noodle,Oriental,0.6,7,7.5
+USJ 6 Zhu Chao,Oriental,0.75,7,8.5
+SS19 Penang Favorites Hokkien Mee,Oreintal,0.8,7.9,5.5
+SS19 Penang Favorites Loh Mee,Oriental,0.75,7.9,6
+Teppanyaki Summit,Mixed,0.8,7.5,8
+SS15 Nasi Lemak,Malay,0.85,10,7.5
+The Chicken Rice Shop(Subang Parade),Oriental,0.7,10.9,8.5
+Old Town White Coffee (Taipan),Mixed,0.75,7,8
+Uncle Don's Taipan,Western,0.8,7,9
+Tealive (Summit),Dessert,0.8,7.5,7
+Tealive (USJ 9),Dessert,0.8,7,7
+Windmill Subang Jaya,Western,0.75,11,25
+Din Tai Fung (Sunway Pyramid),Oriental,0.8,14.9,35
+Manhattan Fish Market (Subang Parade),Western,0.75,10.9,20
+Manhattan Fish Market (Sunway Pyramid),Western,0.75,14.9,20
+Kenny Rogers (Sunway Pyramid),Western,0.85,14.9,20
+Kenny Rogers (Subang Parade),Western,0.85,10.9,20
