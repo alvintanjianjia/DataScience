@@ -1,0 +1,74 @@
+---
+title: "Coursera Practical Machine Learning Assignment WriteUp"
+author: "Alvin Tan Jian Jia"
+date: "9/9/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library('randomForest')
+library('caret')
+library('e1071')
+library(lattice)
+library(ggplot2)
+library(caret)
+library(rpart)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+
+# Reading of the data
+```{r}
+training <- read.csv("pml-training.csv")
+testing <- read.csv("pml-testing.csv")
+
+```
+
+
+# Splitting the data into Training and Test sets.
+# removing na and outliers
+```{r}
+inTrain  <- createDataPartition(training$classe, p=0.7, list=FALSE)
+TrainSet <- training[inTrain, ]
+TestSet  <- training[-inTrain, ]
+dim(TrainSet)
+
+
+NZV <- nearZeroVar(TrainSet)
+TrainSet <- TrainSet[, -NZV]
+TestSet  <- TestSet[, -NZV]
+dim(TrainSet)
+
+AllNA    <- sapply(TrainSet, function(x) mean(is.na(x))) > 0.95
+TrainSet <- TrainSet[, AllNA==FALSE]
+TestSet  <- TestSet[, AllNA==FALSE]
+dim(TrainSet)
+```
+
+
+# Decision Tree training
+```{r results=FALSE}
+# model fit
+set.seed(12345)
+modFitDecTree <- rpart(classe ~ ., data=TrainSet, method="class")
+
+```
+
+# Predicion using random forest
+```{r}
+predictDecTree <- predict(modFitDecTree, newdata=TestSet, type="class")
+
+
+predictDecTree
+```
+
+```{r}
+
+```
+
